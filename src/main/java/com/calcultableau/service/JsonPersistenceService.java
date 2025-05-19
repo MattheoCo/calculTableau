@@ -22,19 +22,23 @@ public class JsonPersistenceService {
     }
 
     public <T> T chargerDonnees(String chemin, Class<T> classe) throws IOException {
-        try (InputStream is = new ClassPathResource(chemin).getInputStream()) {
+        try (InputStream is = getResource(chemin).getInputStream()) {
             return objectMapper.readValue(is, classe);
         }
     }
 
     public <T> T chargerDonnees(String chemin, TypeReference<T> typeReference) throws IOException {
-        try (InputStream is = new ClassPathResource(chemin).getInputStream()) {
+        try (InputStream is = getResource(chemin).getInputStream()) {
             return objectMapper.readValue(is, typeReference);
         }
     }
 
     public <T> void sauvegarderDonnees(String chemin, T donnees) throws IOException {
-        File file = new ClassPathResource(chemin).getFile();
+        File file = getResource(chemin).getFile();
         objectMapper.writeValue(file, donnees);
+    }
+
+    public ClassPathResource getResource(String chemin) {
+        return new ClassPathResource(chemin);
     }
 }
