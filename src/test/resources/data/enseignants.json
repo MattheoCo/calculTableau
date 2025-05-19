@@ -1,0 +1,25 @@
+{
+  "enseignants": [
+    {
+      "id": 1,
+      "prenom": "Alain",
+      "nom": "Dupont",
+      "email": "alain.dupont@iut.fr",
+      "password": "motdepasse123"
+    },
+    {
+      "id": 2,
+      "prenom": "Marie",
+      "nom": "Martin",
+      "email": "marie.martin@iut.fr",
+      "password": "motdepasse456"
+    },
+    {
+      "id": 3,
+      "prenom": "Pierre",
+      "nom": "Bernard",
+      "email": "pierre.bernard@iut.fr",
+      "password": "motdepasse789"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "nom": "Classe A",
+      "matieres": [
+        {
+          "id": 1,
+          "nom": "Mathématiques",
+          "notes": [
+            {
+              "etudiantId": 1,
+              "valeurs": [15, 16, 14],
+              "moyenne": 15.0
+            },
+            {
+              "etudiantId": 2,
+              "valeurs": [12, 13, 14],
+              "moyenne": 13.0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nom": "Informatique",
+          "notes": [
+            {
+              "etudiantId": 1,
+              "valeurs": [18, 17, 16],
+              "moyenne": 17.0
+            },
+            {
+              "etudiantId": 2,
+              "valeurs": [14, 15, 16],
+              "moyenne": 15.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
