@@ -157,3 +157,40 @@ Pour une classe
 }
 ```
 
+
+
+# Plan de développement
+
+## Création des classes modèle  
+Enseignant.java
+Etudiant.java
+Classe.java
+Matiere.java
+Note.java
+
+## Mise en place des services  
+JsonPersistenceService.java - pour gérer la lecture/écriture des fichiers JSON
+EnseignantService.java - gestion des enseignants et authentification
+ClasseService.java - opérations sur les classes
+NoteService.java - ajout/modification des notes
+
+## Création des contrôleurs  
+AuthController.java - pour l'authentification
+ClasseController.java - pour gérer les classes
+NoteController.java - pour gérer les notes
+
+## Développement de l'interface utilisateur  
+Écran de connexion pour les enseignants
+Interface de sélection de classe
+Interface de gestion des notes par matière
+Affichage des statistiques (moyenne, médiane)
+
+## Tests  
+Tests unitaires pour les services
+Tests d'intégration pour les contrôleurs
+Tests de validation pour l'interface utilisateur
+
+## Documentation et finalisation  
+JavaDoc pour toutes les classes
+Readme détaillé pour l'utilisation de l'application
+

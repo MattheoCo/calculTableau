@@ -1,0 +1,29 @@
+{
+  "etudiants": [
+    {
+      "id": 1,
+      "prenom": "Jean",
+      "nom": "Dupont"
+    },
+    {
+      "id": 2,
+      "prenom": "Marie",
+      "nom": "Dupont"
+    },
+    {
+      "id": 3,
+      "prenom": "Paul",
+      "nom": "Martin"
+    },
+    {
+      "id": 4,
+      "prenom": "Sophie",
+      "nom": "Bernard"
+    },
+    {
+      "id": 5,
+      "prenom": "Lucas",
+      "nom": "Thomas"
+    }
+  ]
+}
